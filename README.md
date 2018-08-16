@@ -58,8 +58,9 @@ action写法如下：
 
 
 
-# source
+# 资料
 
 - https://redux.js.org
+- https://cn.redux.js.org/docs/introduction/ThreePrinciples.html
 - http://www.superbug.me/2018/02/06/react-redux-tutorial-for-beginners-learning-redux-in-2018/
 - http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_two_async_operations.html
