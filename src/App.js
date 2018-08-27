@@ -17,7 +17,10 @@ class App extends Component {
         </header>
         
         <div className="App-content">
-          <Router>
+
+          <Article />
+          
+          {/* <Router>
             <div className="Rouer-list">
               <ul>
                 <li>
@@ -35,7 +38,7 @@ class App extends Component {
               <Route path="/article" component={Article} />
               <Route path="/todos" component={Todos} />
             </div>
-          </Router>
+          </Router> */}
         </div>
       </div>
     );
