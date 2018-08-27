@@ -1,0 +1,12 @@
+html,body{
+  background:#efefef;
+}
+
+.App{
+  width:1000px;
+  height:800px;
+  margin:30px auto;
+  background:#fff;
+  padding:10px;
+}
+
