@@ -9,6 +9,7 @@ class Link extends Component {
 
     return (
         <button
+          className="btn"
           onClick={onClick}
           disabled={active}
           style={{

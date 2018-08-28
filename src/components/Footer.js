@@ -7,7 +7,9 @@ class Footer extends Component {
   render() { 
     return ( 
       <div>
-        <span>show:</span>
+        <br />
+        <div>show status:</div>
+        <br/>
         <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
         <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Active</FilterLink>
         <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>Completed</FilterLink>

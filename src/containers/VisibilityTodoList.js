@@ -3,14 +3,15 @@ import { connect } from 'react-redux'
 import { toggleTodo,VisibilityFilters } from '../actions'
 import TodoList from '../components/TodoList'
 
+// 显示过滤
 const getVisibilityTodos = (todos,filter) =>{
   switch (filter) {
     case VisibilityFilters.SHOW_ALL:
       return todos;
     case VisibilityFilters.SHOW_ACTIVE:
-      return todos.filter(t => t.completed)
-    case VisibilityFilters.SHOW_COMPLETED:
       return todos.filter(t => !t.completed)
+    case VisibilityFilters.SHOW_COMPLETED:
+      return todos.filter(t => t.completed)
     default:
       throw new Error('Unkonw filter:'+filter);
   }

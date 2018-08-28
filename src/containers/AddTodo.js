@@ -15,20 +15,20 @@ class AddTodo extends PureComponent {
     const { dispatch } = this.props;
 
     return (
-        <form onSubmit={e => {
-          e.preventDefault();
-          if (!input.value.trim()) {
-            return;
-          }
+      <form onSubmit={e => {
+        e.preventDefault();
+        if (!input.value.trim()) {
+          return;
+        }
 
-          dispatch(addTodo(input.value));
-          input.value = '';
+        dispatch(addTodo(input.value));
+        input.value = '';
 
-        }}>
+      }}>
 
-          <input ref={node => input = node} />
-          <button type="submit">Add Todo</button>
-        </form>
+        <input ref={node => input = node} className="input" placeholder="input your todo" />
+        <button className="btn" type="submit">Add Todo</button>
+      </form>
     );
   }
 }

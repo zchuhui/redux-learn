@@ -4,4 +4,18 @@ img { border:none;}
 .clear{zoom:1;}
 .clear:after{display:block; content:"";clear:both; visibility:hidden; height:0;}   /*清除浮动*/
 a{text-decoration:none;}
-li{list-style:none;}
+
+
+.input{
+  height:30px;
+  line-height: 30px;
+  width:200px;
+  margin-right:10px;
+  text-indent: 5px;
+}
+
+.btn{
+  height:36px;
+  line-height: 30px;
+  min-width:60px;
+}
